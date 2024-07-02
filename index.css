@@ -24,7 +24,7 @@ header p {
 .intro{
   display: flex;
   align-items:center;
-  height:500px
+  height:fit-content
 
 }
 .intro *{
@@ -32,8 +32,7 @@ width:50%;
 margin:10px
 }
 .intro img{
-  border-radius: 20px;
-  height:100%
+ 
 }
 .intro h1{
   width:80%;
