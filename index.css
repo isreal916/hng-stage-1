@@ -78,7 +78,8 @@ width:100%
   align-items: normal;
  }
 .intro h1{
-font-size:60px
+font-size:60px;
+color:blue
 }
 
  .intro img{
