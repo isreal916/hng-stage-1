@@ -9,41 +9,30 @@
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <title>ME</title>
 </head>
 
 <body>
   <header>
-    <p data-testid="currentDay" id="day"></p>
-    <p data-testid="currentTimeUTC" id="time"></p>
-
+   
   </header>
   <div class="intro">
-    <section>
-      <h1 data-testid="slackDisplayName">isreal21</h1>
-      <p data-testid="slackEmail">isrealadeoluwa89@gmail.com</p>
-    </section>
-    <img src="me.jpg" alt="" data-testid="slackProfilePicture">
+  
+      <img src="me.jpg" alt="" data-testid="profilePicture">
+      <h1 data-testid="fullName">Dehinbo Isreal</h1>
+      <p data-testid="currentLocation">Lagos, Nigeria</p>
+      <p data-testid="jobTitle">Software Developer</p>
+      <p data-testid="emailAddress">isrealadeoluwa89@gmail.com</p>
+      <p data-testid="shortBio">I am a passionate web developer with a keen interest in machine learning and Web3 technologies. I enjoy building projects that solve real-world problems and contribute to open source communities. My goal is to continuously improve my skills and make a significant impact in the tech industry.</p>
+   <div class="footer">
+    <a  data-testid="socialLinks" href="https://github.com/isreal916" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/isreal-dehinbo-097032256" target="_blank" data-testid="socialLinks"><i class="fab fa-linkedin"></i></a>
+   </div>
+   <div style="margin-block:10px" > <span data-testid="currentDay" id="day"></span>
+    <span data-testid="currentTimeUTC" id="time"></span></div>
   </div>
-  <div class="goals">
-    <h1>My Tech Goals for the next two years</h1>
-    <ul class="tech-goals">
-      <li>Improve my web development skills i</li>
-      <li>Learn machine learning</li>
-      <li>Build a personal project that could be a solution to organisations</li>
-      <li>Learn new language </li>
-      <li>Participating hackathon</li>
-      <li>Get to Hng finals</li>
-      <li>Contribute in open source project</li>
-      <li>delving into Web3 programming</li>
-
-    </ul>
-  </div>
-  <div class="footer">
-<a href="https://hng.tech/learn"  target="_blank" data-testid="hngLink">Hng Tech</a>
-<a href="https://keyword.dog" target="_blank" data-testid="keywordLink">Key Word</a>
-<a href="https://scrapeanyweb.site" target="_blank"  data-testid="scrapeanywebLink">Scrape Web</a>
-  </div>
+ 
   <script src="index.js"></script>
 </body>
 
